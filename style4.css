@@ -1,0 +1,66 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000; /* Latar belakang hitam */
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-image:url(c:/Users/asn/OneDrive/Gambar/Screenshot_2023-03-06-07-44-37-185_com.android.thememanager.jpg);
+}
+
+h1 {
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  font-size: 2rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.hero {
+  background-image: url('your-background-image.jpg'); /* Ganti dengan gambar latar belakangmu */
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.location {
+  padding: 20px;
+}
+
+.rsvp {
+  padding: 20px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}

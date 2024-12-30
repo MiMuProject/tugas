@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Interactive Form</title>
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="form-container">
+    <h2>Kirim Ucapan</h2>
+    <form id="myForm" action="submit.php" method="post">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required>
+      <label for="ucapan">Ucapan:</label>
+      <textarea id="ucapan" name="ucapan" required></textarea>
+      <button type="submit">Kirim Ucapan</button>
+    </form>
+    <div id="message"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  color: white; /* Untuk teks */
+  font-family: Arial, sans-serif; /* Jenis font */
+  background-image:url(c:/Users/asn/OneDrive/Gambar/Screenshot_2023-03-06-07-44-37-185_com.android.thememanager.jpg);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Gaya tambahan untuk tampilan yang lebih menarik */
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto; /* Membuat gambar berada di tengah */
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+} 
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2; /* Warna latar belakang */
+}
+
+nav li {
+  margin: 0 10px; /* Jarak antar tombol */
+}
+
+nav a {
+  text-decoration: none;
+  color: #3a3a3a;
+  padding: 15px 25px;
+  border-radius: 5px; /* Sudut membulat */
+  transition: background-color 0.3s ease; /* Efek transisi saat dihover */
+}
+
+nav a:hover {
+  background-color: #050505; /* Warna saat dihover */
+  color: #ffffff;
+}
